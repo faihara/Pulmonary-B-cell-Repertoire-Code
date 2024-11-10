@@ -12,16 +12,14 @@ library(devtools)
 library(tibble)
 library(purrr)
 
-#Permisson requried install_github not working #Note, deleted by Feng
+#Permisson requried install_github not working #Note, deleted by Associate professor
 #install_github("https://github.com/BULQI/LungVirome/tree/Fumi/cha")
 
 
-setwd("~/Datasets/Archive_Code/Partition_Analysis/")
+setwd("~/path/to/function_codes")
 source("Sequencing_Function_Codes.R")
 
-wd <- "C:/Users/faihara/Desktop/faihara/Desktop/Lab/Sequencing/iNEXT/PartitionFIles"
-
-wd <- "~/Datasets/Archive_Code/Partition_Analysis"
+wd <- "~/path/to/Partition_Analysis"
 setwd(wd)
 
 #Read all Partition assignments files
@@ -137,7 +135,7 @@ ggplot(Plot_DF, aes(x = Diversity_Ratio,
   geom_point(size = 4)
 
 #Save graph
-destination <- "C:/Users/faihara/Desktop/faihara/Desktop/Lab/Writings/Figures/Paired_Sample/iNEXT"
+destination <- "/Directory/to/Output"
 
 ggsave(paste0("Diversity_Ratio_iNEXT.png"),
        width = 5,
