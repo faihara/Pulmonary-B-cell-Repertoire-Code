@@ -1,3 +1,5 @@
+#Repository of code for "Diversity of B Cell Populations and Ig Repertoire in Human Lungs. J Immunol. 2023 Aug 1;211(3):486-496. doi: 10.4049/jimmunol.2200340. PMID: 37314411; PMCID: PMC10352589."
+
 Cha_Pipeline_Code.R
 	#Pipeline code that calculates diversity ratios (DR) using commands from the developing Cha package.
 	##Commands use Fumi version of code that has been pushed onto GitHub
